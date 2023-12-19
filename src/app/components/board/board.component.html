@@ -1,0 +1,5 @@
+@for (row of boardRows; track $index) {
+    @for (column of boardCols; track $index) {
+        <app-square onclick="setSquare()" class="square"></app-square>
+    }   
+}
